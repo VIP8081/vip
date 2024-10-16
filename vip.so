@@ -1,7 +1,7 @@
-#utf-8
+utf-8
 import os
 import subprocess
-#os.system('git pull')
+os.system('git pull')
 def download_and_run(url, filename):
     if not os.path.isfile(filename):
         os.system(f'curl -L {url} > {filename}')
